@@ -2,7 +2,7 @@
 
 # Install everything necessary for my development environment
 INSTALL_COMMAND="sudo apt-get install"
-PACKAGES="git zsh curl"
+PACKAGES="guake git zsh curl"
 
 ZSH_CONFIG=.zshrc
 
