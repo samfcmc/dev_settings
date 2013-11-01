@@ -4,7 +4,8 @@
 INSTALL_COMMAND="sudo apt-get install"
 PACKAGES="guake git zsh curl"
 
-ZSH_CONFIG=.zshrc
+ZSH_CONFIG=".zshrc"
+VIM_CONFIG=".vimrc"
 
 # Package installation
 echo "Packages installation"
@@ -16,3 +17,6 @@ curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | 
 # Copy dot files
 echo "Copy zshrc file"
 cp -fv $ZSH_CONFIG $HOME
+
+echo "Copy vimrc file"
+cp -fv $VIM_CONFIG $HOME
