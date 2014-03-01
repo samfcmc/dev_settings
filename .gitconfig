@@ -1,0 +1,12 @@
+[user]
+	name = Samuel Coelho
+	email = samuelfcmc@gmail.com
+
+[color]
+	ui = true
+
+[alias]
+	st = status
+	co = checkout
+	ci = commit
+
