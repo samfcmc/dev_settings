@@ -47,9 +47,3 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 export PATH=$PATH:/home/samuel/.rvm/gems/ruby-1.9.3-p448/bin:/home/samuel/.rvm/gems/ruby-1.9.3-p448@global/bin:/home/samuel/.rvm/rubies/ruby-1.9.3-p448/bin:/home/samuel/.rvm/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
 
-EDITOR="$HOME/develop/editor/sublime/sublime_text"
-ECLIPSE="$HOME/develop/ide/eclipse/eclipse"
-
-#My aliases
-alias t=$EDITOR
-alias eclipse=$ECLIPSE
