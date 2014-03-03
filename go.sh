@@ -2,7 +2,7 @@
 
 # Install everything necessary for my development environment
 INSTALL_COMMAND="sudo apt-get install"
-PACKAGES="guake git zsh curl"
+PACKAGES="guake zsh curl vim"
 
 ZSH_CONFIG=".zshrc"
 VIM_CONFIG=".vimrc"
