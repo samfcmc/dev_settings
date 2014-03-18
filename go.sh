@@ -25,3 +25,6 @@ cp -fv $VIM_CONFIG $HOME
 echo "Copy gitconfig file"
 cp -fv $GIT_CONFIG $HOME
 
+echo "Get awesome vimrc"
+curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh
+
