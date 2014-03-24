@@ -22,8 +22,17 @@ cp -fv $ZSH_CONFIG $HOME
 echo "Copy vimrc file"
 cp -fv $VIM_CONFIG $HOME
 
+echo "Git configurations"
+echo "Type your name"
+read name
+echo "Type your email"
+read email
+
 echo "Copy gitconfig file"
 cp -fv $GIT_CONFIG $HOME
+
+git config --global user.name "$name"
+git config --global user.email $email
 
 echo "Get awesome vimrc"
 curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh
