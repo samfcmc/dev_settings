@@ -6,7 +6,7 @@ ECLIPSE_APP_ENTRY="eclipse.desktop"
 ECLIPSE_APP="/usr/share/applications/$ECLIPSE_APP_ENTRY"
 
 echo "Downloading Eclipse"
-#wget $ECLIPSE_URL
+wget $ECLIPSE_URL
 
 echo "Copying downloaded file to $DEV_SOFTWARE_HOME"
 cp -r *.tar.gz $DEV_SOFTWARE_HOME
@@ -16,7 +16,7 @@ cd $DEV_SOFTWARE_HOME
 tar xvzf $ECLIPSE_TAR_FILE
 
 echo "Adding to PATH"
-echo "$ECLIPSE_HOME=$DEV_SOFTWARE_HOME/eclipse" | sudo tee -a /etc/profile
+echo "ECLIPSE_HOME=$DEV_SOFTWARE_HOME/eclipse" | sudo tee -a /etc/profile
 echo "export PATH=\$ECLIPSE_HOME:\$PATH" | sudo tee -a /etc/profile
 
 echo "Adding entry in applications menu"
